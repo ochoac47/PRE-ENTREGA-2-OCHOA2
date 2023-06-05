@@ -1,0 +1,30 @@
+.combos { 
+    @include titulospage;
+}
+
+
+
+#promos .col-lg-12 {
+    width: 1200px;
+    height: 600px;
+    margin: 0 !important;    
+    padding: 20px;
+    text-align: center;
+    
+}
+
+#promos .col-lg-4 {
+    margin: 0 !important;    
+    padding: 20px;
+}
+
+#promos img{ 
+    width: 100%;
+    height: 500px;
+}
+ #promos img:hover{ 
+    border-radius: 20px;
+    box-shadow: 0 2px 2px black;
+    overflow: hidden;
+    transform: translate(-15px);
+}

@@ -1,176 +1,315 @@
-*{
-    margin: 0;
+#menu li {
+  font-size: 25px;
+  font-weight: bold;
+  list-style: none;
 }
-body {font-family: 'Montserrat', sans-serif;
-    text-decoration: rgb(170, 71, 71);
-    background: #654ea3;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #eaafc8, #654ea3);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #eaafc8, #654ea3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    
-    }
-
-li { 
-    font-size: 25px;
-    font-weight: bold;
-    list-style: none;
-
-    }
-
-  nav { 
-    text-decoration: none;
-   
-    }
-  
-h3{ 
-    font-size: 40px;
-    font-weight: bold;  
+#menu #menu li a:hover {
+  color: white;
+}
+#menu nav {
+  text-decoration: none;
 }
 
-#division { 
-    margin: 0; 
-    padding: 40px; 
-    font-size: 35px;     
+.carousel img {
+  width: 900px;
+  height: 700px;
+  border: 5px solid rgb(177, 87, 180);
 }
 
-.img { 
-    padding: 40px;
-    
+.Bienvenidos {
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
 }
 
-.pedido { 
-    font-weight: bold;
-    text-align: center;
-    padding: 25px; 
+h1 {
+  animation-duration: 3s;
+  animation-name: aparecer;
+  animation-iteration-count: infinite;
 }
 
-p{color:rgb(170, 71, 71);
-    font-weight: bold;
-    text-align: center;
-    
+h2 {
+  animation-duration: 3s;
+  animation-name: aparecer;
+  animation-iteration-count: infinite;
 }
 
- 
-.sedes { 
-    text-align: center; 
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.Bienvenidos p {
+  font-size: 25px;
 }
 
-.horario { 
-    text-align: center;
-}
-.horario p { 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
-}
-.btn { 
-    padding: 5px;
+#division {
+  margin: 0;
+  padding: 40px;
+  font-size: 35px;
 }
 
-.quienes { 
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.img {
+  padding: 40px;
 }
 
-.titulo-galeria { 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
-}
-#galeria .col-lg-4 { 
-    margin: 0 !important;    
-    padding: 20px;
-}
-#galeria img { 
-    width: 100%;
-    height: 300px;
-}
-#galeria img:hover { 
-    border: 5px solid rgb(226, 135, 229);
-    box-shadow: 5px 8px 12px black;
-
+.pedido {
+  font-weight: bold;
+  text-align: center;
+  padding: 25px;
 }
 
-.combos { 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.contacto { 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-   
-}
-
-
-#promos .col-lg-4 {
-    margin: 0 !important;    
-    padding: 20px;
-
-}
-#promos img{ 
-    width: 100%;
-    height: 500px;
-}
-.carousel img{
-    width: 900px;
-    height: 700px;
-    border: 5px solid rgb(177, 87, 180)
-    
-}
-
-.bienvenidos { 
-    font-weight: bold;
-    font-size: 30px;
-    text-align: center;
-}
-
-    
-.gracias { 
-    font-weight: bold;
-    text-align: center;
-}
-.gracias ul { 
-    list-style: none;
-    color: rgb(170, 71, 71);
-}
-.redes a { 
-    color: rgb(170, 71, 71);
-   font-size: 40px;
-   padding: 10px;
-   
+p {
+  color: rgb(170, 71, 71);
+  font-weight: bold;
+  text-align: center;
 }
 
 footer {
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    background-color: #343a40;
-    padding: 20px 0;
-  }
-  
-  .footer-content {
-    color: #fff;
-    text-align: center;
-  }
-  
-  .logofooter img {
-    width: 200px;
-  }
-  
-  .direccion p {
-    font-size: 20px;
-    margin-top: 10px;
-  }
-  
-  .redes a {
-    color: rgb(170, 71, 71);
-    font-size: 40px;
-    margin-right: 10px;
-    
-    
-  }
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #343a40;
+  padding: 20px 0;
+}
+footer .footer-content {
+  color: #fff;
+  text-align: center;
+}
+footer .logofooter img {
+  width: 200px;
+}
+
+.direccion p {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.redes a {
+  color: rgb(170, 71, 71);
+  font-size: 40px;
+  margin-right: 10px;
+  padding: 10px;
+}
+
+.quienes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.quienes p {
+  font-size: 20px;
+}
+
+#nosotros .card {
+  width: 330px;
+  height: 450px;
+  border-radius: 20px;
+  box-shadow: 0 2px 2px black;
+  overflow: hidden;
+  margin: 20px;
+  text-align: center;
+  transition: all 0.25s;
+  background-color: rosybrown;
+}
+
+.card:hover {
+  transform: translate(-15px);
+  box-shadow: 0 12px 16px black;
+}
+
+.card img {
+  width: 300px;
+  height: 280px;
+}
+
+.card h5 {
+  color: #fff;
+}
+
+.card p {
+  color: #fff;
+  padding: 0 1rem;
+  font-size: 16px;
+  font-weight: 100;
+}
+
+.titulo {
+  text-align: center;
+  font-weight: bold;
+}
+
+.recetas {
+  padding: 30px;
+  text-align: center;
+}
+
+.recetas img:hover {
+  border-radius: 20px;
+  box-shadow: 0 2px 2px black;
+  overflow: hidden;
+  transform: translate(-15px);
+}
+
+.titulo-galeria {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+#galeria .col-lg-4 {
+  margin: 0 !important;
+  padding: 20px;
+}
+
+#galeria img {
+  width: 100%;
+  height: 300px;
+}
+
+#galeria img:hover {
+  border: 5px solid rgb(226, 135, 229);
+  box-shadow: 5px 8px 12px black;
+}
+
+.contacto {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.maps {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sedes {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.sedes p {
+  font-size: 20px;
+}
+
+#mapa,
+#mapa2 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+iframe {
+  max-width: 100%;
+  height: auto;
+  padding: 20px;
+}
+
+.horario p {
+  font-size: 20px;
+}
+
+.horario {
+  text-align: center;
+  font-weight: bold;
+}
+.horario .horario p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.gracias {
+  font-weight: bold;
+  text-align: center;
+  font-size: 25px;
+}
+
+.gracias ul {
+  list-style: none;
+  color: rgb(170, 71, 71);
+}
+
+.combos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+#promos .col-lg-12 {
+  width: 1200px;
+  height: 600px;
+  margin: 0 !important;
+  padding: 20px;
+  text-align: center;
+}
+
+#promos .col-lg-4 {
+  margin: 0 !important;
+  padding: 20px;
+}
+
+#promos img {
+  width: 100%;
+  height: 500px;
+}
+
+#promos img:hover {
+  border-radius: 20px;
+  box-shadow: 0 2px 2px black;
+  overflow: hidden;
+  transform: translate(-15px);
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  text-decoration: rgb(170, 71, 71);
+  background: #654ea3; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #eaafc8, #654ea3); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #eaafc8, #654ea3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.btn-wat {
+  position: fixed;
+  height: 55px;
+  width: 55px;
+  line-height: 55px;
+  bottom: 30px;
+  right: 30px;
+  background: #0df053;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+  z-index: 100;
+}
+.btn-wat .btn-wat:hover {
+  text-decoration: none;
+  color: #0df053;
+  background: white;
+}
+
+h3 {
+  color: #fff;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/*# sourceMappingURL=styles.css.map */

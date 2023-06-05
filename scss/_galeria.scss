@@ -1,0 +1,17 @@
+.titulo-galeria { 
+    @include titulospage;
+     
+ }
+ #galeria .col-lg-4 { 
+     margin: 0 !important;    
+     padding: 20px;
+ }
+ #galeria img { 
+     width: 100%;
+     height: 300px;
+     }
+ #galeria img:hover { 
+     border: 5px solid rgb(226, 135, 229);
+     box-shadow: 5px 8px 12px black;
+ 
+     }

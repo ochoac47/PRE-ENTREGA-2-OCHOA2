@@ -1,0 +1,53 @@
+.quienes { 
+    @include titulospage;
+}
+.quienes p {
+    font-size: 20px;
+}
+#nosotros .card {
+    width: 330px;
+    height: 450px;
+    border-radius: 20px;
+    box-shadow: 0 2px 2px black;
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+    background-color: rosybrown;
+  }
+ .card:hover{
+    transform: translate(-15px);
+    box-shadow: 0 12px 16px black;    
+  }
+  .card img {
+    width: 300px;
+    height: 280px;
+}
+
+  .card h5{
+ color:$color-titulos
+}
+  .card p {
+    color: $color-titulos;
+    padding: 0 1rem;
+    font-size: 16px;
+    font-weight: 100; 
+    }
+
+    
+
+.titulo { 
+    text-align: center;
+    font-weight: bold;
+}
+.recetas {     
+    padding: 30px;
+    text-align: center;
+    
+}
+.recetas img:hover{ 
+    border-radius: 20px;
+    box-shadow: 0 2px 2px black;
+    overflow: hidden;
+    transform: translate(-15px);
+    }

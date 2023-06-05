@@ -1,0 +1,54 @@
+.contacto { 
+    @include titulospage;
+   
+}
+.maps {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .sedes{
+    width: 100%;
+    max-width: 1200px; 
+    margin: 0 auto;
+  }
+  .sedes p { 
+    font-size: 20px;
+  }
+
+  #mapa,
+#mapa2 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+iframe {
+  max-width: 100%;
+  height: auto;
+  padding: 20px;
+}
+.horario p {
+    font-size: 20px;
+
+}
+.horario { 
+    text-align: center;
+    font-weight: bold;
+
+  .horario p { 
+    @include titulospage;
+    
+    }
+}
+
+.gracias { 
+    font-weight: bold;
+    text-align: center;
+    font-size: 25px;
+}
+.gracias ul { 
+    list-style: none;
+    color: rgb(170, 71, 71);
+}

@@ -1,0 +1,13 @@
+
+@mixin tituloh3{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    }
+
+@mixin titulospage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
